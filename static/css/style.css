@@ -1,0 +1,110 @@
+:root {
+  --upea-blue: #003366;
+  --upea-red:  #E30613;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: var(--upea-blue) !important;
+}
+
+.navbar-brand {
+  color: var(--upea-red) !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #FFD700 !important;
+}
+
+.banner {
+  background-image: url("../img/biblioteca.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+.banner .overlay {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  background-color: var(--upea-blue);
+  border-color: var(--upea-blue);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #002244;
+  border-color: #002244;
+}
+
+.btn-danger {
+  background-color: var(--upea-red);
+  border-color: var(--upea-red);
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #b00510;
+  border-color: #b00510;
+}
+
+.footer {
+  background-color: var(--upea-blue);
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.list-group-item {
+  font-size: 0.95rem;
+}
+
+.list-group-item strong {
+  color: var(--upea-blue);
+}
+
+/* 🔎 Estilos para el buscador */
+.input-group .form-control {
+  border-radius: 8px 0 0 8px;
+}
+
+.input-group .btn {
+  border-radius: 0 8px 8px 0;
+}
